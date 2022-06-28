@@ -18,16 +18,17 @@ questions = [q1,q2,q3]
 print()
 j=0
 for x in questions:
-	
-	print(' '+x)
-	i=0
-	for op in option[j]:
-		print('  ',o[i]+')',op)
-		i+=1
-	print()
-	n = input('Select your ans : ')
-	if n not in o:
+	n=''
+	while n not in o:
 		print('Wrong option Please select a,b,c,d!!!!!!')
+		print()
+		print(' '+x)
+		i=0
+		for op in option[j]:
+			print('  ',o[i]+')',op)
+			i+=1
+		print()
+		n = input('Select your ans : ')
 	else:
 		if option[j][o.index(n)] in ans:
 			print("----Correct ----\n")
@@ -36,3 +37,4 @@ for x in questions:
 		#print(o.index(n))
 
 	j+=1
+
