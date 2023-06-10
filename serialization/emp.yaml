@@ -1,0 +1,21 @@
+Person 1:
+  age: 20
+  city: New York
+  hobbies:
+  - reading
+  - hiking
+  - coding
+Person 2:
+  age: 21
+  city: New York
+  hobbies:
+  - reading
+  - hiking
+  - coding
+Person 3:
+  age: 22
+  city: New York
+  hobbies:
+  - reading
+  - hiking
+  - coding
