@@ -1,0 +1,11 @@
+import json
+import pickle
+
+
+# Deserializarion of employee object
+with open('emp.ser','rb') as f:
+	emp = pickle.load(f)
+	print('Oject Deserialization Complete')
+
+print('printing Employee Information')
+emp.display()
