@@ -1,6 +1,7 @@
 # YAML Ain't Markup Language 
 # Yet Another Markup Language
 # more readable and ligt weight then json
+# pip install PyYAML 6.0
 
 from pyaml import yaml
 
